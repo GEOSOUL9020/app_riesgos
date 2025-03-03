@@ -1,4 +1,4 @@
-from ncodigo_de_ejecucion import *
+from codigo_de_ejecucion import *
 import streamlit as st
 from streamlit_echarts import st_echarts
 
