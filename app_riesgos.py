@@ -1,4 +1,4 @@
-from codigo_de_ejecucion import *
+from codigo_de_ejecucion import ejecutar_modelos
 import streamlit as st
 from streamlit_echarts import st_echarts
 
