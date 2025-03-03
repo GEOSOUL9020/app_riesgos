@@ -1,6 +1,7 @@
 from codigo_de_ejecucion import ejecutar_modelos
 import streamlit as st
 from streamlit_echarts import st_echarts
+import pandas as pd
 
 #CONFIGURACION DE LA PÁGINA
 st.set_page_config(
