@@ -42,8 +42,8 @@ def ejecutar_modelos(df):
     with open('pipe_ejecucion_pd.pickle', mode='rb') as file:
        pipe_ejecucion_pd = pickle.load(file)
 
-    with open('pipe_ejecucion_ead.pickle', mode='rb') as file:
-       pipe_ejecucion_ead = pickle.load(file)
+    with open('pipe_ejecucion_ead.pickle', 'rb') as file:
+        pipe_ejecucion_ead = pickle.load(file, encoding='latin1')
 
     with open('pipe_ejecucion_lgd.pickle', mode='rb') as file:
        pipe_ejecucion_lgd = pickle.load(file)
